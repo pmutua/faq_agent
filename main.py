@@ -22,7 +22,7 @@ forex_query_engine = PandasQueryEngine(df=trade_weighted_avarage_indictive_rates
 
 forex_query_engine.update_prompts({"pandas_prompt": new_prompt})
 
-forex_query_engine.query("What is the current rate of usd")
+# forex_query_engine.query("What is the current rate of usd")
 
 tools = [
     note_engine,
